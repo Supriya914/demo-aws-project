@@ -14,7 +14,7 @@ db_conn = connections.Connection(
     port=3306,
     user=admin,
     password=admin123,
-    db=customdb
+    db=mydb
 
 )
 output = {}
