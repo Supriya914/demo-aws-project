@@ -12,8 +12,8 @@ region = customregion
 db_conn = connections.Connection(
     host=customhost,
     port=3306,
-    user=customuser,
-    password=custompass,
+    user=admin,
+    password=admin123,
     db=customdb
 
 )
